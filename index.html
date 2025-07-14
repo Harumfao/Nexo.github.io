@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nexo</title>
+    <link rel="shortcut icon" href="icon/nexo.png" type="image/png">
+    <link rel="stylesheet" href="../Tarea/css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="nexoWelcome" data-aos="fade-up"
+        data-aos-duration="3000">
+            <img class="logo"  src="../Tarea/icon/nexo.png"  alt="nexoLogo">
+            <h1>BIENVENIDO A <span class= "nexoA">NEXO</span></h1>
+        </div>
+
+    <nav class="firstNav" data-aos="fade-up"
+        data-aos-duration="3000">
+        <div class="btnContainer">
+            <a class="btn" href="#Sobre-Nexo">
+                <img class="icons" src="../Tarea/icon/nexoWhite.png"  alt="nexoIcon">  
+                NEXO
+            </a>
+
+            <a class="btn" href="#inicio-Nexo">
+                <img class="icons" src="../Tarea/icon/hogar.png" alt="homeIcon">
+                INICIO
+            </a>
+
+            <a class="btn" href="#directImg">
+                <img class="icons" src="../Tarea/icon/busqueda.png" alt="directorioIcon">
+                DIRECTORIO
+            </a>
+
+            <a class="btn" href="#personSec">
+                <img class="icons" src="../Tarea/icon/usuario.png" alt="personalizacion">
+                PERSONALIZAR
+            </a>
+        </div>
+    </nav>
+   </header> 
+
+    <nav class="secondNav">
+            <div class="btnContainerSecond">
+                <img class="logoNexo" src="../Tarea/icon/nexoWhite.png"  alt="nexoIcon">
+                <a class="btn2" href="#Sobre-Nexo">NEXO</a>
+                <a class="btn2" href="#inicio-Nexo">INICIO</a>
+                <a class="btn2" href="#directImg">DIRECTORIO</a>
+                <a class="btn2" href="#personSec">PERSONALIZAR</a>
+            </div>
+            <div id="separadores"></div>
+ </nav>
+
+    <div class="firstContainer">
+    <div class="contenidoNexo">
+        <div class="secNexo">
+            <h2 class="infoNexoT" id="Sobre-Nexo">Sobre Nexo</h2>
+                <p>
+                    Nexo es la plataforma definitiva para los entusiastas de los videojuegos, diseñada para centralizar tu experiencia de juego. Actúa como una robusta biblioteca digital, permitiéndote no solo explorar y adquirir nuevos títulos de un catálogo en constante expansión, sino también integrar sin esfuerzo tus juegos ya existentes. Crea un espacio unificado donde toda tu colección de videojuegos reside cómodamente, facilitando una transición fluida entre aventuras y una gestión sin precedentes de tu entretenimiento interactivo. Con Nexo, el acceso a tu mundo de juego está siempre a tu alcance, organizado y listo para la acción.
+                </p>
+        </div>
+        <img class="loadImage" src="../Tarea/images/load.png" alt="loading">
+    </div>
+</div>
+
+    <div class="contenidoInicio">
+        <img class="iniImg" src="../Tarea/images/ini.png" alt="inicioImage">
+        <div class="secIni">
+            <h2 class="inicioT" id="inicio-Nexo">El Corazón de tu experiencia de Juego</h2>
+                <p>   
+                    El apartado Inicio es tu punto de partida, la página principal diseñada para darte acceso instantáneo a todo lo que necesitas. Con un HUD intuitivo y moderno. 
+                    Desde aquí, podrás acceder rápidamente a las secciones clave que hacen de Nexo tu plataforma de juegos ideal.
+                    Está pensada para que siempre tengas lo más importante a tu alcance, garantizando una experiencia fluida y eficiente desde el momento en que abres la aplicación.
+                </p>
+    </div>
+</div>
+
+<div class="contenidoDire">
+        <div class="direImgSec">
+        <img class="direImg" id="directImg" src="../Tarea/images/Categoria.png" alt="perfilImage">
+        <img class="direImg" src="../Tarea/images/Categoria-survival.png" alt="perfilImage">
+        <img class="direImg" src="../Tarea/images/Previa.png" alt="perfilImage">
+        </div>
+        <div class="secDireSec">
+        <div class="secDire">
+            <h2>El Directorio: Tu Portal a Nuevas Aventuras</h2>
+            <p>
+                Es el corazón explorador de Nexo, diseñado para que descubras tu próximo juego favorito sin esfuerzo. Aquí, no solo podrás explorar géneros y sumergirte en el vasto universo gaming, sino que también contarás con herramientas poderosas para afinar tu búsqueda:
+
+                Filtra por Categorías: ¿Buscas acción trepidante, estrategia profunda, o tal vez una aventura narrativa? Con nuestros filtros de categorías, podrás navegar por tus géneros preferidos y encontrar exactamente lo que te apetece.
+
+                Buscador Integrado: Si ya tienes un juego en mente y prefieres ir directo al grano, nuestro buscador te permitirá buscar rápidamente con solo escribir su nombre.
+            </p>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="contenidoPerso">
+        <div class="secPer" id="personSec">
+            <h2>Tu perfil: Tu identidad en el mundo gamer</h2>
+            <p>
+                Personalizá tu espacio dentro de Nexo con total libertad. Desde tu avatar hasta los fondos dinámicos, biografía, logros destacados y estilos visuales, hacé que tu perfil refleje tu esencia como jugador. Mostrá tus juegos favoritos, estadísticas, y logros más épicos, todo en un solo lugar diseñado para expresarte.
+            </p>
+        </div>
+        <img class="perfil" src="../Tarea/images/perfil.png" alt="perfilImage">
+    </div>
+
+    <footer>
+        <p>Milagros Fernandez | Ezequiel Fernandez </p>
+        <p>Isec | Diseño y programación web | 1º Cuatrimestre 2025 | Maquetado y desarrollo web </p>
+    </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const secondNav = document.querySelector('.secondNav');
+        const header = document.querySelector('header');
+        let headerHeight = header.offsetHeight; 
+
+        // Scroll
+        function handleScroll() {
+            
+            if (window.scrollY > headerHeight - 50) { // Ajustar el -50px por si necesitamos que aparezca un poco antes
+                secondNav.classList.add('show');
+            } else {
+                secondNav.classList.remove('show');
+            }
+        }
+        handleScroll();
+
+        window.addEventListener('scroll', handleScroll);
+
+        window.addEventListener('resize', () => {
+            headerHeight = header.offsetHeight;
+            handleScroll();
+        });
+    });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 0, 
+    once: true 
+  });
+</script>
+</body>
+</html>
